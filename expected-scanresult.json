@@ -1,0 +1,179 @@
+{
+    "scanMetadata": {
+        "startTime": "2021-08-23T12:29:02.8484007Z",
+        "scanPath": "/tmp/00000000-0000-0000-0000-000000000000",
+        "scanArguments": {
+            "projectDownloadUrl": "https://joaod-dev.s3.eu-central-1.amazonaws.com/JoaoD/Basic.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZWPGXHZVFMKXFWYP%2F20210823%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210823T122627Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=FwoGZXIvYXdzEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDLne73abpm9xhXw7ICKGAROhDDT01OcRnt8SuimLVJueSCtW13I2eyRTYNginU0H%2BvMgFo1tAgs61GbVF3jMkwKKwwAskjUriXHH6WAgrsKoyxihr2wNBtmXf92gFbmw86PZweAHgUqA%2FpRMhP%2Ffkf6nI8iwZafFZRHbcD99n3whnepaH7TgyWXPgIhKsHoFFPTSvfrhKJynjokGMijnWTtKzn5Bib3XNjj2ZPUJpsVCZqAgTJCXc8UfkUsVUjrL2s7OdCOF&X-Amz-Signature=0d56a1e6e6c9e24b18cb4cd4da04d79dad429834bfad47a4c8e6eb11d488088b",
+            "scanId": "00000000-0000-0000-0000-000000000000",
+            "excludePatterns": {
+                "patterns": []
+            },
+            "ignoreDevDependencies": false,
+            "shouldResolveDependenciesLocally": true,
+            "npmPartialResultsFallbackScriptPath": "",
+            "environmentVariables": {},
+            "shouldUseHoistFlagWhenUseLerna": false,
+            "shouldResolvePartialResults": true,
+            "projectRelativePathsToPythonVersionsMapping": {},
+            "additionalScanArguments": {},
+            "extractArchives": [],
+            "extractDepth": 0,
+            "gradleExcludedScopes": null,
+            "gradleIncludedScopes": null,
+            "gradleDevDependenciesScopes": null,
+            "gradleModulesToIgnore": null,
+            "gradleModulesToInclude": null,
+            "gradlePluginDependenciesScopes": null,
+            "proxies": {}
+        },
+        "scanDiagnostics": {
+            "ResolveDependenciesForFile[bower-basic-cx/bower.json].BowerDependencyResolver.scopeMilliseconds": 29164,
+            "FolderAnalyzer.analyzedFilesCount": 3.0,
+            "scopeMilliseconds": 29613,
+            "DockerResolutionScope.scopeMilliseconds": 30,
+            "FolderAnalyzer.scopeMilliseconds": 43,
+            "EnvironmentVariables": "",
+            "ShouldResolvePartialResults": "True",
+            "ResolveDependenciesForFile[bower-basic-cx/bower.json].scopeMilliseconds": 29167,
+            "ShouldResolveDependenciesLocally": true
+        }
+    },
+    "analyzedFiles": [
+        {
+            "relativePath": "bower-basic-cx/bower.json",
+            "size": 138,
+            "fingerprints": [
+                {
+                    "type": "Sha1",
+                    "value": "d2feb3f2a92008aad0ad733671ba633998bc352c"
+                },
+                {
+                    "type": "Sha1",
+                    "value": "d2feb3f2a92008aad0ad733671ba633998bc352c"
+                }
+            ]
+        },
+        {
+            "relativePath": "expected-scanresult.json",
+            "size": 2051,
+            "fingerprints": [
+                {
+                    "type": "Sha1",
+                    "value": "f9511129593663f286eb5d3792134387d712e3ea"
+                },
+                {
+                    "type": "Sha1",
+                    "value": "f9511129593663f286eb5d3792134387d712e3ea"
+                }
+            ]
+        },
+        {
+            "relativePath": "expected-scanresult-old.json",
+            "size": 3772,
+            "fingerprints": [
+                {
+                    "type": "Sha1",
+                    "value": "df955deec176e457ea155f1f471620670fbb0afc"
+                },
+                {
+                    "type": "Sha1",
+                    "value": "df955deec176e457ea155f1f471620670fbb0afc"
+                }
+            ]
+        }
+    ],
+    "dependencyResolutionResults": [
+        {
+            "dependencies": [
+                {
+                    "id": {
+                        "name": "require-css",
+                        "version": "0.1.1",
+                        "nodeId": "75a05522-8b3a-4f40-90de-79a5d471e2a3"
+                    },
+                    "isDirect": true,
+                    "isDevelopment": false,
+                    "isPluginDependency": false,
+                    "isTestDependency": false,
+                    "resolvingModuleType": "Bower",
+                    "additionalData": {},
+                    "targetFrameworks": []
+                },
+                {
+                    "id": {
+                        "name": "angular",
+                        "version": "1.8.2",
+                        "nodeId": "426daf57-52a9-416a-a9a9-6687566413ca"
+                    },
+                    "isDirect": false,
+                    "isDevelopment": false,
+                    "isPluginDependency": false,
+                    "isTestDependency": false,
+                    "resolvingModuleType": "Bower",
+                    "additionalData": {},
+                    "targetFrameworks": []
+                },
+                {
+                    "id": {
+                        "name": "angular-mocks",
+                        "version": "1.8.2",
+                        "nodeId": "bac1b016-52dd-4f5b-8c1e-71e8e1a5ce89"
+                    },
+                    "isDirect": false,
+                    "isDevelopment": false,
+                    "isPluginDependency": false,
+                    "isTestDependency": false,
+                    "resolvingModuleType": "Bower",
+                    "additionalData": {},
+                    "targetFrameworks": []
+                },
+                {
+                    "id": {
+                        "name": "ng-dialog",
+                        "version": "0.5.6",
+                        "nodeId": "01e42470-7a9d-41bb-acb4-444c8d05f810"
+                    },
+                    "isDirect": true,
+                    "isDevelopment": false,
+                    "isPluginDependency": false,
+                    "isTestDependency": false,
+                    "resolvingModuleType": "Bower",
+                    "additionalData": {},
+                    "targetFrameworks": []
+                },
+                {
+                    "id": {
+                        "name": "font-awesome",
+                        "version": "4.5.0",
+                        "nodeId": "35632034-6c44-41c5-8e5f-169d6d9ce172"
+                    },
+                    "isDirect": true,
+                    "isDevelopment": false,
+                    "isPluginDependency": false,
+                    "isTestDependency": false,
+                    "resolvingModuleType": "Bower",
+                    "additionalData": {},
+                    "targetFrameworks": []
+                }
+            ],
+            "dependenciesPath": {
+                "75a05522-8b3a-4f40-90de-79a5d471e2a3": {},
+                "01e42470-7a9d-41bb-acb4-444c8d05f810": {
+                    "426daf57-52a9-416a-a9a9-6687566413ca": {},
+                    "bac1b016-52dd-4f5b-8c1e-71e8e1a5ce89": {
+                        "426daf57-52a9-416a-a9a9-6687566413ca": {}
+                    }
+                },
+                "35632034-6c44-41c5-8e5f-169d6d9ce172": {}
+            },
+            "packageManagerFile": "bower-basic-cx/bower.json",
+            "resolvingModuleType": "Bower",
+            "dependencyResolverStatus": "FullResults",
+            "message": ""
+        }
+    ],
+    "containerResolutionResults": {
+        "imagePaths": [],
+        "layers": {}
+    }
+}
